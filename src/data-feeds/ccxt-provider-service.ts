@@ -202,6 +202,15 @@ export class CcxtFeed implements BaseDataFeed {
       case "local-test":
         configPath = CONFIG_PREFIX + "local.json";
         break;
+      case "coston":
+        configPath = CONFIG_PREFIX + "coston.json";
+        break;
+      case "coston2":
+        configPath = CONFIG_PREFIX + "coston2.json";
+        break;
+      case "songbird":
+        configPath = CONFIG_PREFIX + "songbird.json";
+        break;
       default:
         configPath = CONFIG_PREFIX + "coston.json";
     }
