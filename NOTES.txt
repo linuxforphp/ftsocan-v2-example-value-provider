@@ -1,0 +1,12 @@
+# To test the scaling app, run the following commands in the 'ftsocan-v2-example-value-provider' repository:
+docker run -it --rm -p 3101:3101 -v ${PWD}/:/srv/tempo/ftsocan-v2-example-value-provider node:18 /bin/bash
+cd /srv/tempo/ftsocan-v2-example-value-provider/
+yarn install --frozen-lockfile
+yarn build
+mkdir -p dist/config
+cp -rf src/config/* dist/config/
+chown -R 1000:1000 ./*
+yarn start:dev:provider
+# OR
+node dist/main.js
+# Work is to be done in src/data-feeds/ccxt-provider-service.ts (private async getFeedPrice(feedId: FeedId): Promise<number>)
