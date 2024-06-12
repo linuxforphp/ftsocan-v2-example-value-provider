@@ -3,6 +3,14 @@
     "feed": { "category": 1, "name": "FLR/USD" },
     "sources": [
       {
+        "exchange": "bitfinex",
+        "symbol": "FLR/USD"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "FLR/USD"
+      },
+      {
         "exchange": "coinbasepro",
         "symbol": "FLR/USD"
       },
@@ -13,6 +21,10 @@
       {
         "exchange": "gate",
         "symbol": "FLR/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "FLR/USD"
       },
       {
         "exchange": "kucoin",
@@ -28,12 +40,24 @@
     "feed": { "category": 1, "name": "SGB/USD" },
     "sources": [
       {
+        "exchange": "bitfinex",
+        "symbol": "SGB/USD"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "SGB/USD"
+      },
+      {
         "exchange": "gate",
         "symbol": "SGB/USDT"
       },
       {
         "exchange": "gateio",
         "symbol": "SGB/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "SGB/USD"
       }
     ]
   },
@@ -45,6 +69,18 @@
         "symbol": "XRP/USDT"
       },
       {
+        "exchange": "binance",
+        "symbol": "XRP/USDT"
+      },
+      {
+        "exchange": "bitfinex",
+        "symbol": "XRP/USD"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "XRP/USD"
+      },
+      {
         "exchange": "coinbasepro",
         "symbol": "XRP/USDT"
       },
@@ -63,6 +99,10 @@
       {
         "exchange": "gate",
         "symbol": "XRP/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "XRP/USD"
       },
       {
         "exchange": "kucoin",
@@ -82,6 +122,14 @@
         "symbol": "LTC/USDT"
       },
       {
+        "exchange": "bitfinex",
+        "symbol": "LTC/USD"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "LTC/USD"
+      },
+      {
         "exchange": "bitget",
         "symbol": "LTC/USDT"
       },
@@ -100,6 +148,10 @@
       {
         "exchange": "gate",
         "symbol": "LTC/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "LTC/USD"
       },
       {
         "exchange": "kucoin",
@@ -119,6 +171,10 @@
         "symbol": "XLM/USDT"
       },
       {
+        "exchange": "bitfinex",
+        "symbol": "XLM/USD"
+      },
+      {
         "exchange": "bitget",
         "symbol": "XLM/USDT"
       },
@@ -141,6 +197,10 @@
       {
         "exchange": "gate",
         "symbol": "XLM/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "XLM/USD"
       },
       {
         "exchange": "kucoin",
@@ -159,7 +219,10 @@
         "exchange": "binance",
         "symbol": "DOGE/USDT"
       },
-
+      {
+        "exchange": "bitfinex",
+        "symbol": "DOGE/USD"
+      },
       {
         "exchange": "bitget",
         "symbol": "DOGE/USDT"
@@ -183,6 +246,10 @@
       {
         "exchange": "gate",
         "symbol": "DOGE/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "DOGE/USD"
       },
       {
         "exchange": "kucoin",
@@ -201,10 +268,17 @@
         "exchange": "binance",
         "symbol": "ADA/USDT"
       },
-
+      {
+        "exchange": "bitfinex",
+        "symbol": "ADA/USD"
+      },
       {
         "exchange": "bitget",
         "symbol": "ADA/USDT"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "ADA/USD"
       },
       {
         "exchange": "coinbasepro",
@@ -225,6 +299,10 @@
       {
         "exchange": "gate",
         "symbol": "ADA/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "ADA/USD"
       },
       {
         "exchange": "kucoin",
@@ -243,7 +321,14 @@
         "exchange": "binance",
         "symbol": "ALGO/USDT"
       },
-
+      {
+        "exchange": "bitfinex",
+        "symbol": "ALGO/USD"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "ALGO/USD"
+      },
       {
         "exchange": "coinbasepro",
         "symbol": "ALGO/USD"
@@ -259,6 +344,10 @@
       {
         "exchange": "gate",
         "symbol": "ALGO/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "ALGO/USD"
       },
       {
         "exchange": "kucoin",
@@ -278,8 +367,16 @@
         "symbol": "BTC/USDT"
       },
       {
+        "exchange": "bitfinex",
+        "symbol": "BTC/USD"
+      },
+      {
         "exchange": "bitget",
         "symbol": "BTC/USDT"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "BTC/USD"
       },
       {
         "exchange": "coinbasepro",
@@ -300,6 +397,10 @@
       {
         "exchange": "gate",
         "symbol": "BTC/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "BTC/USD"
       },
       {
         "exchange": "kucoin",
@@ -319,8 +420,16 @@
         "symbol": "ETH/USDT"
       },
       {
+        "exchange": "bitfinex",
+        "symbol": "ETH/USD"
+      },
+      {
         "exchange": "bitget",
         "symbol": "ETH/USDT"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "ETH/USD"
       },
       {
         "exchange": "coinbasepro",
@@ -341,6 +450,10 @@
       {
         "exchange": "gate",
         "symbol": "ETH/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "ETH/USD"
       },
       {
         "exchange": "kucoin",
@@ -360,6 +473,10 @@
         "symbol": "FIL/USDT"
       },
       {
+        "exchange": "bitfinex",
+        "symbol": "FIL/USD"
+      },
+      {
         "exchange": "bitget",
         "symbol": "FIL/USDT"
       },
@@ -378,6 +495,10 @@
       {
         "exchange": "gate",
         "symbol": "FIL/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "FIL/USD"
       },
       {
         "exchange": "kucoin",
@@ -397,6 +518,10 @@
         "symbol": "ARB/USDT"
       },
       {
+        "exchange": "bitfinex",
+        "symbol": "ARB/USD"
+      },
+      {
         "exchange": "bitget",
         "symbol": "ARB/USDT"
       },
@@ -415,6 +540,10 @@
       {
         "exchange": "gate",
         "symbol": "ARB/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "ARB/USD"
       },
       {
         "exchange": "kucoin",
@@ -434,8 +563,16 @@
         "symbol": "AVAX/USDT"
       },
       {
+        "exchange": "bitfinex",
+        "symbol": "AVAX/USD"
+      },
+      {
         "exchange": "bitget",
         "symbol": "AVAX/USDT"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "AVAX/USD"
       },
       {
         "exchange": "coinbasepro",
@@ -456,6 +593,14 @@
       {
         "exchange": "gate",
         "symbol": "AVAX/USDT"
+      },
+      {
+        "exchange": "gemini",
+        "symbol": "AVAX/USD"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "AVAX/USD"
       },
       {
         "exchange": "kucoin",
@@ -500,6 +645,14 @@
         "symbol": "MATIC/USDT"
       },
       {
+        "exchange": "bitfinex",
+        "symbol": "MATIC/USD"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "MATIC/USD"
+      },
+      {
         "exchange": "coinbasepro",
         "symbol": "MATIC/USDT"
       },
@@ -518,6 +671,10 @@
       {
         "exchange": "gate",
         "symbol": "MATIC/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "MATIC/USD"
       },
       {
         "exchange": "kucoin",
@@ -537,8 +694,16 @@
         "symbol": "SOL/USDT"
       },
       {
+        "exchange": "bitfinex",
+        "symbol": "SOL/USD"
+      },
+      {
         "exchange": "bitget",
         "symbol": "SOL/USDT"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "SOL/USD"
       },
       {
         "exchange": "coinbasepro",
@@ -559,6 +724,10 @@
       {
         "exchange": "gate",
         "symbol": "SOL/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "SOL/USD"
       },
       {
         "exchange": "kucoin",
@@ -582,8 +751,16 @@
         "symbol": "USDC/USDT"
       },
       {
+        "exchange": "bitstamp",
+        "symbol": "USDC/USD"
+      },
+      {
         "exchange": "gate",
         "symbol": "USDC/USDT"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "USDC/USD"
       },
       {
         "exchange": "kucoin",
@@ -599,7 +776,23 @@
     "feed": { "category": 1, "name": "USDT/USD" },
     "sources": [
       {
+        "exchange": "bitfinex",
+        "symbol": "USDT/USD"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "USDT/USD"
+      },
+      {
         "exchange": "coinbasepro",
+        "symbol": "USDT/USD"
+      },
+      {
+        "exchange": "gate",
+        "symbol": "USDT/USD"
+      },
+      {
+        "exchange": "kraken",
         "symbol": "USDT/USD"
       }
     ]
@@ -607,6 +800,10 @@
   {
     "feed": { "category": 1, "name": "XDC/USD" },
     "sources": [
+      {
+        "exchange": "bitfinex",
+        "symbol": "XDC/USD"
+      },
       {
         "exchange": "bitget",
         "symbol": "XDC/USDT"
@@ -868,6 +1065,14 @@
         "symbol": "BCH/USDT"
       },
       {
+        "exchange": "bitfinex",
+        "symbol": "BCH/USD"
+      },
+      {
+        "exchange": "bitstamp",
+        "symbol": "BCH/USD"
+      },
+      {
         "exchange": "coinbasepro",
         "symbol": "BCH/USD"
       },
@@ -882,6 +1087,14 @@
       {
         "exchange": "gate",
         "symbol": "BCH/USDT"
+      },
+      {
+        "exchange": "gemini",
+        "symbol": "BCH/USD"
+      },
+      {
+        "exchange": "kraken",
+        "symbol": "BCH/USD"
       },
       {
         "exchange": "kucoin",
